@@ -53,8 +53,6 @@ export default {
       theme: {
         fontFamily: {
           sans: ['Roboto', 'sans-serif'],
-          serif: ['MPH 2B Damase']
-
         },
         extend: {
           colors: {
