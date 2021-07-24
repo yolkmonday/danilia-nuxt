@@ -1,9 +1,13 @@
 <template>
-  <div>
-    oii
-  </div>
+  <div>tes</div>
 </template>
 
 <script>
-export default {}
+export default {
+
+}
 </script>
+
+<style>
+
+</style>

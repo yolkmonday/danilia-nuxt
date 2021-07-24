@@ -47,5 +47,22 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  tailwindcss: {
+    config: {
+      theme: {
+        fontFamily: {
+          sans: ['Roboto', 'sans-serif'],
+          serif: ['MPH 2B Damase']
+
+        },
+        extend: {
+          colors: {
+            gold: '#FFC42D',
+            maroon: '#611919'
+          }
+        }
+      }
+    }
+  },
 }
