@@ -33,6 +33,9 @@
     </section>
     <div v-if="page==='dua'" class="bg-maroon" >
        <section class="min-h-screen flex items-center px-4" >
+         <img class="absolute w-48 bottom-0" src="@/assets/flower.svg" alt="">
+         <img class="absolute w-48 top-0 right-0 transform rotate-180" src="@/assets/flower.svg" alt="">
+
      <div class="flex flex-col items-center w-full">
        <h1 class="block text-center w-full text-gray-400 mb-8 animate__animated animate__fadeInUp">THE WEDDING OF</h1><br>
      <img class="w-32 mx-auto animate__animated animate__fadeInUp" src="~/assets/logo.svg" alt="">
@@ -43,10 +46,10 @@
 
    <section  class="min-h-screen flex items-center">
      <div>
- <p class="px-6 text-gray-400 text-sm text-light text-center leading-6">
+ <p class="px-6 text-gray-400 text-sm text-light text-center leading-6 animate__animated animate__fadeInUp">
        “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri,supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.”
      </p>
-     <p class="text-center text-md text-gold font-bold mt-3">( Qs. Ar-Ruum : 21)</p>
+     <p class="text-center text-md text-gold font-bold mt-3 animate__animated animate__fadeInUp">( Qs. Ar-Ruum : 21)</p>
      </div>
     
    </section>
@@ -113,7 +116,7 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
 
    </section>
 
-   <section  class="flex items-center min-h-screen">
+   <section  class="flex items-center min-h-screen px-4">
      <div class="w-full text-center">
  <div class="w-full">
    <svg class="h-5 w-auto mx-auto" width="481" height="54" viewBox="0 0 481 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -297,9 +300,9 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
 </svg>
 
      </div>
-     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.6748421634975!2d101.3679148!3d0.4859094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMjknMDguNCJOIDEwMcKwMjInMDguMyJF!5e0!3m2!1sen!2sid!4v1627137393300!5m2!1sen!2sid" width="100%" class="rounded-lg" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.6748421634975!2d101.3679148!3d0.4859094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMjknMDguNCJOIDEwMcKwMjInMDguMyJF!5e0!3m2!1sen!2sid!4v1627137393300!5m2!1sen!2sid" width="100%" class="rounded-lg " height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   
- <div class="border mt-4 w-full py-4 rounded-lg border-gold" @click.prevent="gmaps()">
+ <div class="border mt-4  w-full py-4 rounded-lg border-gold" @click.prevent="gmaps()">
      <svg class="h-5 w-auto mx-auto" width="495" height="48" viewBox="0 0 495 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 15L40 0L25.0233 40L20 20L0 15Z" fill="#ECAF2B"/>
 <path d="M80.776 3.08002C80.776 3.08002 67.672 3.15202 66.232 3.08002C65.656 3.00802 65.296 3.08002 65.296 3.36802C65.296 3.65602 65.44 3.87202 65.8 3.87202C67.456 3.87202 69.04 4.59202 69.04 6.53602C69.04 6.53602 69.04 34.976 69.04 35.048C69.184 36.776 70.408 37.064 70.408 37.064H68.104C67.456 36.992 67.24 37.28 67.24 37.496C67.24 37.784 67.6 38.072 68.176 38H75.592C76.096 38 76.528 38 76.528 37.64C76.528 37.424 76.384 37.208 75.952 37.208C74.296 37.064 72.712 36.704 72.712 34.544C72.712 34.544 72.712 7.32802 72.712 7.11202C72.712 5.31202 71.416 5.02402 71.416 5.02402C75.88 4.80802 78.256 4.80802 80.704 4.80802C85.744 4.80802 89.56 7.25602 89.56 12.872C89.56 18.632 83.512 22.16 76.024 21.656C74.656 21.584 74.44 22.664 75.88 22.808C78.256 23.24 80.92 23.384 84.088 22.88C89.704 22.16 93.736 17.552 93.736 12.872C93.736 5.31202 86.464 3.08002 80.776 3.08002Z" fill="#FFC42D"/>
@@ -318,6 +321,16 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
 </div>
   
    </section>
+
+   <section class="min-h-screen flex items-center">
+     <div class="w-fullm mx-auto text-center px-4">
+       <p class="text-white text-sm mb-4">Menuju Hari Bahagia</p>
+       <div class="mx-auto text-gold w-full px-12 bg-white py-4 rounded-lg">
+     <Countdown class="" end="July 31, 2021"></Countdown>
+
+       </div>
+     </div>
+   </section>
     </div>
     
 
@@ -326,7 +339,9 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
 </template>
 
 <script>
+import Countdown from 'vuejs-countdown'
 export default {
+  components: { Countdown },
   data() {
     return {
       page: 'satu'
@@ -353,5 +368,8 @@ export default {
 
 <style>
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  font-family: 'Poppins' !important;
+}
 </style>
