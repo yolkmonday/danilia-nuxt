@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section v-if="page==='satu'" class="h-screen p-8" style="background: url('bg-1.png')" >
+    <section v-if="page==='satu'" class="h-screen p-8" style="background: url('bg-1.png');max-width:768px;margin:auto;" >
       <div class="w-full bg-white rounded-lg h-full flex flex-col">
         <div class="h-1/4"></div>
         <div>
