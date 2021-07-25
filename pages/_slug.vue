@@ -335,7 +335,7 @@ export default {
   computed: {
     name() {
      const n = this.$route.params.slug
-     return n.replace('-', ' ')
+     return n.split('-').join(' ')
     }
   },
   methods: {
