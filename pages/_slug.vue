@@ -360,7 +360,7 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
      </div>
    </section>
 
-   <section class="px-4">
+   <section class="px-4 min-h-screen items-center">
   <p class="w-full text-center text-gray-300 text-lg mb-4">Tetap Patuhi<br>Protokol Kesehatan</p>
   <div class="grid grid-cols-1 text-center gap-8">
     <div>
