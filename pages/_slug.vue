@@ -31,10 +31,9 @@
     
     
     </section>
-    <div v-if="page==='dua'" class="bg-maroon" >
+    <div v-if="page==='dua'" class="bg-maroon" style="background: url('bg-1.png')" >
        <section class="min-h-screen flex items-center px-4" >
-         <img class="absolute w-48 bottom-0" src="@/assets/flower.svg" alt="">
-         <img class="absolute w-48 top-0 right-0 transform rotate-180" src="@/assets/flower.svg" alt="">
+        
 
      <div class="flex flex-col items-center w-full">
        <h1 class="block text-center w-full text-gray-400 mb-8 animate__animated animate__fadeInUp">THE WEDDING OF</h1><br>
@@ -58,9 +57,9 @@
      <div>
  <p class="text-center text-sm text-gray-400">Bismillahirrahmanirrahim</p>
      <p class="text-center text-sm text-gray-400">Assalamu’alaikum Warahmatullahi Wabarakatuh</p>
-     <p class="text-center text-sm text-gray-400 mt-8">Dengan memohon Rahmat dan Ridha Allah SWT, kami bermaksud
+     <p class="text-center text-sm text-gray-400 mt-8 mb-8">Dengan memohon Rahmat dan Ridha Allah SWT, kami bermaksud
 menyelenggarakan Resepsi pernikahan putra-putri kami</p>
-<div class="py-8">
+<div class="py-12">
 <div class="w-full">
   <svg class="h-4 w-auto mx-auto" width="607" height="38" viewBox="0 0 607 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M34.568 35.208C32.912 35.208 31.256 34.56 31.256 32.544C31.256 32.544 31.256 4.17599 31.256 4.10399C31.184 2.30399 29.888 1.94399 29.888 1.94399H32.408C32.912 1.94399 33.128 1.65599 33.056 1.43999C33.056 1.15199 32.768 1.00799 32.192 1.00799H24.704C24.2 1.00799 23.912 1.07999 23.84 1.36799C23.84 1.58399 23.984 1.79999 24.344 1.79999C26 1.94399 27.656 2.44799 27.656 4.53599V16.776C27.152 17.064 26.576 17.136 25.64 17.28C24.704 17.352 7.78402 17.352 7.78402 17.352C7.78402 17.352 7.78402 4.17599 7.78402 4.03199C7.71202 2.30399 6.41602 1.94399 6.41602 1.94399H9.00802C9.58402 1.94399 9.72802 1.72799 9.72802 1.51199C9.72802 1.22399 9.36802 1.00799 8.86402 1.00799H1.23202C0.512021 1.00799 0.296021 1.07999 0.296021 1.36799C0.296021 1.65599 0.440021 1.87199 0.80002 1.87199C2.45602 1.87199 4.04002 2.59199 4.04002 4.53599C4.04002 4.53599 4.04002 32.976 4.04002 33.048C4.18402 34.776 5.40802 35.064 5.40802 35.064H2.96002C2.38402 35.064 2.24002 35.352 2.24002 35.568C2.24002 35.856 2.60002 36.072 3.17602 36H10.592C11.096 36 11.528 36.072 11.528 35.64C11.528 35.496 11.384 35.28 10.952 35.28C9.29602 35.064 7.71202 34.704 7.71202 32.544V18.792C7.71202 18.792 23.624 18.792 24.92 19.008C26.792 19.224 27.656 20.448 27.656 22.32C27.656 27.864 27.584 30.456 27.584 33.048C27.728 34.776 28.952 35.064 28.952 35.064H26.504C26 35.064 25.64 35.28 25.64 35.496C25.64 35.856 26 36 26.504 36H34.136C34.928 36 35 36 35 35.64C35.072 35.424 34.928 35.208 34.568 35.208Z" fill="#FFC42D"/>
@@ -324,7 +323,7 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
 
    <section class="min-h-screen flex items-center">
      <div class="w-fullm mx-auto text-center px-4">
-       <p class="text-white text-sm mb-4">Menuju Hari Bahagia</p>
+       <p class="text-white italic mb-4">Menuju Hari Bahagia</p>
        <div class="mx-auto text-gold w-full px-12 bg-white py-4 rounded-lg">
      <Countdown class="" end="July 31, 2021"></Countdown>
 
