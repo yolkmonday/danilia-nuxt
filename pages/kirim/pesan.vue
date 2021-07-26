@@ -21,7 +21,7 @@ export default {
     methods: {
         goto() {
             const pesan = `${this.pesan} - danilia.online/${this.nama.split(' ').join('-')}`
-             window.location.href = `https://api.whatsapp.com/send?phone=${this.nomor}&text=${pesan}`
+             window.location.href = `https://api.whatsapp.com/send?phone=62${this.nomor}&text=${pesan}`
         }
     }
 }
