@@ -275,8 +275,7 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
 </svg>
 
      </div>
-     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.6748421634975!2d101.3679148!3d0.4859094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMjknMDguNCJOIDEwMcKwMjInMDguMyJF!5e0!3m2!1sen!2sid!4v1627137393300!5m2!1sen!2sid" width="100%" class="rounded-lg " height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.765705310096!2d101.37900571475326!3d0.2942499997853187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMTcnMzkuMyJOIDEwMcKwMjInNTIuMyJF!5e0!3m2!1sen!2sid!4v1627375798497!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
  <div class="border mt-4  w-full py-4 rounded-lg border-gold" @click.prevent="gmaps()">
      <svg class="h-5 w-auto mx-auto" width="495" height="48" viewBox="0 0 495 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 15L40 0L25.0233 40L20 20L0 15Z" fill="#ECAF2B"/>
@@ -405,7 +404,7 @@ export default {
   methods: {
     
     gmaps() {
-      window.open('https://goo.gl/maps/ALHdqsnG8Nw3oB736', '_blank')
+      window.open('https://goo.gl/maps/nem6wyrpojMw2a5p7', '_blank')
     }
   }
 }
