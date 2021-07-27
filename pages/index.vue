@@ -274,7 +274,9 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
 <path d="M344.494 35.136C341.758 34.848 340.462 32.616 339.166 29.736L326.926 1.36799C326.782 0.863993 326.278 0.863992 326.134 1.43999C325.342 3.81599 324.19 6.26399 324.19 6.26399L314.47 29.736C313.246 32.4 311.59 35.28 308.206 35.28C307.99 35.28 307.702 35.352 307.702 35.64C307.702 35.928 308.062 36.072 308.71 36.072H317.134C317.782 36.072 318.07 36.072 318.07 35.712C318.07 35.496 317.926 35.28 317.566 35.28C316.198 35.28 315.622 35.064 315.838 33.624C315.91 31.392 317.566 28.08 318.358 26.208H331.678L331.174 24.912H318.934L326.422 6.47999C326.422 6.47999 336.07 32.832 336.358 33.336C337.15 34.92 337.942 35.208 337.942 35.208H335.278C334.846 35.208 334.774 35.424 334.774 35.64C334.774 36 335.134 36.072 335.71 36.072H344.782C345.574 36.072 345.862 36.072 345.862 35.64C345.862 35.208 344.854 35.208 344.494 35.136Z" fill="#FFC42D"/>
 </svg>
 
-     </div>
+    
+<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=0.294259, 101.381184&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF Mods</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>    
+    </div>
      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.6748421634975!2d101.3679148!3d0.4859094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMjknMDguNCJOIDEwMcKwMjInMDguMyJF!5e0!3m2!1sen!2sid!4v1627137393300!5m2!1sen!2sid" width="100%" class="rounded-lg " height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   
  <div class="border mt-4  w-full py-4 rounded-lg border-gold" @click.prevent="gmaps()">
