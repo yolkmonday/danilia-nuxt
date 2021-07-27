@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'The Wedding Of Dani ♥ Lia',
+    title: 'The Wedding Of Lia ♥ Dani',
     htmlAttrs: {
       lang: 'id'
     },
