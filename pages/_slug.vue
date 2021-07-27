@@ -32,7 +32,7 @@
     
     
     </section>
-    <div v-if="page===2" class="bg-maroon" style="background: url('bg-1.png')" >
+    <div v-if="page==='dua'" class="bg-maroon" style="background: url('bg-1.png')" >
        <section class="min-h-screen flex items-center px-4" >
         
 
