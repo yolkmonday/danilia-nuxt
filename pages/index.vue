@@ -400,9 +400,7 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
 import Countdown from 'vuejs-countdown'
 export default {
   components: { Countdown },
-
   methods: {
-    
     gmaps() {
       window.open('https://goo.gl/maps/nem6wyrpojMw2a5p7', '_blank')
     }
