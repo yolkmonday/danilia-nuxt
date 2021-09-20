@@ -262,7 +262,7 @@ menyelenggarakan Resepsi pernikahan putra-putri kami</p>
 
        </div>
        <div class="mx-auto text-gold font-bold w-full px-12 border border-gold py-4 rounded-lg">
-     <Countdown class="" end="July 29, 2021"></Countdown>
+     <Countdown class="" end="September 25, 2021"></Countdown>
 
        </div>
      </div>
